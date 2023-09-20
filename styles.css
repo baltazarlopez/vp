@@ -1,16 +1,19 @@
-/* Estilos generales */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Teko&display=swap");
+/*familia de fuentes: 'Oswald', sans-serif;
+familia de fuentes: 'Teko', sans-serif;*/
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
 }
 
 header {
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   padding: 20px;
-  text-align: center;
+  text-align: justify;
 }
 
 nav ul {
@@ -28,7 +31,15 @@ nav a {
   color: #fff;
   font-weight: bold;
 }
-
+.subir {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
 main {
   max-width: 1200px;
   margin: 20px auto;
@@ -41,6 +52,7 @@ main {
 h2 {
   font-size: 24px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .producto {
@@ -66,26 +78,54 @@ h2 {
   font-size: 16px;
 }
 
+#tw {
+  color: rgb(0, 255, 255);
+}
+
+#fa {
+  color: blue;
+}
+
+#in {
+  color: #ff00ea;
+}
+
 .producto a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
   margin-top: 10px;
   font-weight: bold;
 }
-
 .producto a:hover {
-  background-color: #555;
+  background-color: #484848;
 }
 
+.carousel-inner {
+  max-width: 40%;
+  margin: 0%;
+}
+/* Estilo personalizado para el carrusel */
+.custom-carousel {
+  width: 250px; /* Personaliza el ancho según tus necesidades */
+  height: auto;
+}
+.sociales {
+  letter-spacing: 10px;
+  font-size: 35px;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.sociales :hover {
+  transform: scale(1.1);
+}
 footer {
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 50px;
   margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
