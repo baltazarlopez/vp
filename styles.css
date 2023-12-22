@@ -8,14 +8,30 @@ body {
   padding: 0;
   background-color: #f0f0f0;
 }
+.hero {
+  color: #ffffff;
+  text-align: center;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: #000000; /* Color de fondo del cuadro */
+  border: 2px solid #000000; /* Grosor y color del borde */
+  border-radius: 20px; /* Bordes redondos */
+  padding: 15px; /* Espaciado interno del cuadro */
+  box-shadow: 0 0 10px rgb(0, 13, 255); /* Sombreado */
+  margin-bottom: 20px; /* Espacio en la parte inferior del cuadro */
+}
 
 header {
   background-color: #000000;
   color: #fff;
   padding: 20px;
+  text-align: center;
+}
+header img {
+  width: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+  margin-right: 10px;
   text-align: justify;
 }
-
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -48,6 +64,55 @@ main {
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+.producto {
+  background-color: #000000;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.producto h3 {
+  font-size: 28px;
+  color: #000000; /* Amarillo */
+  margin-bottom: 10px;
+}
+
+.producto img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra amarilla */
+  margin-bottom: 15px;
+}
+
+.producto p {
+  font-size: 18px;
+  color: #000000; /* Negro */
+  margin-bottom: 15px;
+}
+
+.producto ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.producto li {
+  font-size: 16px;
+  color: #ffffff; /* Negro */
+  margin-bottom: 5px;
+}
+
+.detalles {
+  background-color: #002fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
 h2 {
   text-decoration: underline;
   text-shadow: 0cm;
@@ -64,9 +129,10 @@ h1 {
 .producto {
   margin-bottom: 30px;
   padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 /* Aplicar un tamaño máximo a las imágenes */
@@ -100,14 +166,14 @@ h1 {
   display: inline-block;
   padding: 10px 20px;
   background-color: #000000;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
   margin-top: 10px;
   font-weight: bold;
 }
 .producto a:hover {
-  background-color: #484848;
+  background-color: #d4cdcd;
 }
 
 .carousel-inner {
